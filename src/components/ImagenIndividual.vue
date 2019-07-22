@@ -1,11 +1,11 @@
 <template>
     <div class="row">
         <div class="col-sm-8 col-12">
-            <img :src="selectImage.thumbnail" class="img-fluid img-galeria-ind">
+            <img :src="selectImage.url" class="img-fluid img-galeria-ind">
         </div>
         <div class="col-sm-4 col-12">
-            <h2><strong>{{selectImage.title}}</strong></h2>
-            <p>{{selectImage.details}}</p>
+            <h2><strong>{{selectImage.nombre}}</strong></h2>
+            <p>{{selectImage.detalles}}</p>
         </div>
     </div>
 </template>
